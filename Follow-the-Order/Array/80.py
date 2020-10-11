@@ -23,7 +23,8 @@ class Solution:
             i += 1
         return len(nums)
      
-使用 for in range 会报错 out of list！而while不会！
+使用 for i in range 会报错 out of list！而while不会！
+* 因为for i in range的loop里，无法对 i 做任何操作！！！！！！！！！
 
 *** （难想到）
 2. 覆盖多余的重复项
